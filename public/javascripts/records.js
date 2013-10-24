@@ -58,7 +58,7 @@
 
     var hostname = function() {
       var el = document.createElement("a");
-      el.href = data.from_url;
+      el.href = data.fromUrl;
       return el.hostname;
     };
 
